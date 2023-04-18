@@ -28,7 +28,9 @@ body * {
 	font-size: 3vw;
 	color: #77ffc0;
 }
-
+.left-login-img{
+	width: 35vw;
+}
 .right-login{
 	width: 50vw;
 	height:100vh;
@@ -54,7 +56,6 @@ body * {
 	font-weight: 800;
 	margin: 0;
 }
-
 .textfiled{
 	width: 100%;
 	display: flex;
@@ -79,13 +80,15 @@ body * {
 .textfiled > label {
 	color: #f0ffffde;
 	margin-bottom: 10px;
-	
 } 
 .textfiled > input::placeholder{
 	color:#f0ffff94;
-	
 }
+.signforget a{
+	color:#fff ;
 
+	text-decoration: none;
+}
 .btn-login{
 	width: 100%;
 	padding: 16px 0px;
@@ -104,14 +107,9 @@ body * {
 
 
 }
-.signforget a{
-	color: #fcfcfc;
-	text-decoration: none;
-	
-}
 @media only screen and (max-width: 950px){
 	.card-login{
-		width: 100%;
+		width: 85%;
 	}
 }
 
